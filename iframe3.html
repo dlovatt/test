@@ -1,0 +1,1180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black" /><meta name="format-detection" content="telephone=no" /><title>iframe test</title><style type="text/css">
+        /* Resets */
+        .ReadMsgBody { width: 100%; background-color: #ebebeb;}
+        .ExternalClass {width: 100%; background-color: #ebebeb;}
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+        a[x-apple-data-detectors]{
+            color:inherit !important;
+            text-decoration:none !important;
+            font-size:inherit !important;
+            font-family:inherit !important;
+            font-weight:inherit !important;
+            line-height:inherit !important;
+        }        
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+        body {margin:0; padding:0;}
+        .yshortcuts a {border-bottom: none !important;}
+        .rnb-del-min-width{ min-width: 0 !important; }
+
+        /* Add new outlook css start */
+        .templateContainer{
+            max-width:590px !important;
+            width:auto !important;
+        }
+        /* Add new outlook css end */
+
+        /* Image width by default for 3 columns */
+        img[class="rnb-col-3-img"] {
+        max-width:170px;
+        }
+
+        /* Image width by default for 2 columns */
+        img[class="rnb-col-2-img"] {
+        max-width:264px;
+        }
+
+        /* Image width by default for 2 columns aside small size */
+        img[class="rnb-col-2-img-side-xs"] {
+        max-width:180px;
+        }
+
+        /* Image width by default for 2 columns aside big size */
+        img[class="rnb-col-2-img-side-xl"] {
+        max-width:350px;
+        }
+
+        /* Image width by default for 1 column */
+        img[class="rnb-col-1-img"] {
+        max-width:550px;
+        }
+
+        /* Image width by default for header */
+        img[class="rnb-header-img"] {
+        max-width:590px;
+        }
+
+        /* Ckeditor line-height spacing */
+        .rnb-force-col p, ul, ol{margin:0px!important;}
+        .rnb-del-min-width p, ul, ol{margin:0px!important;}
+
+        /* tmpl-2 preview */
+        .rnb-tmpl-width{ width:100%!important;}
+
+        /* tmpl-11 preview */
+        .rnb-social-width{padding-right:15px!important;}
+
+        /* tmpl-11 preview */
+        .rnb-social-align{float:right!important;}
+
+        @media only screen and (min-width:590px){
+        /* mac fix width */
+        .templateContainer{width:590px !important;}
+        }
+
+        @media screen and (max-width: 360px){
+        /* yahoo app fix width "tmpl-2 tmpl-10 tmpl-13" in android devices */
+        .rnb-yahoo-width{ width:360px !important;}
+        }
+
+        @media screen and (max-width: 380px){
+        /* fix width and font size "tmpl-4 tmpl-6" in mobile preview */
+        .element-img-text{ font-size:24px !important;}
+        .element-img-text2{ width:230px !important;}
+        .content-img-text-tmpl-6{ font-size:24px !important;}
+        .content-img-text2-tmpl-6{ width:220px !important;}
+        }
+
+        @media screen and (max-width: 480px) {
+        td[class="rnb-container-padding"] {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        }
+
+        /* force container nav to (horizontal) blocks */
+        td.rnb-force-nav {
+        display: inherit;
+        }
+        }
+
+        @media only screen and (max-width: 600px) {
+
+        /* center the address &amp; social icons */
+        .rnb-text-center {text-align:center !important;}
+
+        /* force container columns to (horizontal) blocks */
+        td.rnb-force-col {
+        display: block;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        width:100%;
+        }
+
+        table.rnb-container {
+         width: 100% !important;
+        }
+
+        table.rnb-btn-col-content {
+        width: 100% !important;
+        }
+        table.rnb-col-3 {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+
+        /* change left/right padding and margins to top/bottom ones */
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        /*border-bottom: 1px solid #eee;*/
+        }
+
+        table.rnb-last-col-3 {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+        }
+
+        table[class~="rnb-col-2"] {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+
+        /* change left/right padding and margins to top/bottom ones */
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        /*border-bottom: 1px solid #eee;*/
+        }
+
+        table.rnb-col-2-noborder-onright {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+
+        /* change left/right padding and margins to top/bottom ones */
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        }
+
+        table.rnb-col-2-noborder-onleft {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+
+        /* change left/right padding and margins to top/bottom ones */
+        margin-top: 10px;
+        padding-top: 10px;
+        }
+
+        table.rnb-last-col-2 {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+        }
+
+        table.rnb-col-1 {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+        }
+
+        img.rnb-col-3-img {
+        /**max-width:none !important;**/
+        width:100% !important;
+        }
+
+        img.rnb-col-2-img {
+        /**max-width:none !important;**/
+        width:100% !important;
+        }
+
+        img.rnb-col-2-img-side-xs {
+        /**max-width:none !important;**/
+        width:100% !important;
+        }
+
+        img.rnb-col-2-img-side-xl {
+        /**max-width:none !important;**/
+        width:100% !important;
+        }
+
+        img.rnb-col-1-img {
+        /**max-width:none !important;**/
+        width:100% !important;
+        }
+
+        img.rnb-header-img {
+        /**max-width:none !important;**/
+        width:100% !important;
+        margin:0 auto;
+        }
+
+        img.rnb-logo-img {
+        /**max-width:none !important;**/
+        width:100% !important;
+        }
+
+        td.rnb-mbl-float-none {
+        float:inherit !important;
+        }
+
+        .img-block-center{text-align:center !important;}
+
+        .logo-img-center
+        {
+            float:inherit !important;
+        }
+
+        /* tmpl-11 preview */
+        .rnb-social-align{margin:0 auto !important; float:inherit !important;}
+
+        /* tmpl-11 preview */
+        .rnb-social-center{display:inline-block;}
+
+        /* tmpl-11 preview */
+        .social-text-spacing{margin-bottom:0px !important; padding-bottom:0px !important;}
+
+        /* tmpl-11 preview */
+        .social-text-spacing2{padding-top:15px !important;}
+
+    }</style><!--[if gte mso 11]><style type="text/css">table{border-spacing: 0; }table td {border-collapse: separate;}</style><![endif]--><!--[if !mso]><!--><style type="text/css">table{border-spacing: 0;} table td {border-collapse: collapse;}</style> <!--<![endif]--><!--[if gte mso 15]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--><!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><body>
+
+<table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" class="main-template" bgcolor="#f9fafc" style="background-color: rgb(249, 250, 252);">
+
+    <tbody><tr style="display:none !important; font-size:1px; mso-hide: all;"><td></td><td></td></tr>
+    <tr>
+        <td align="center" valign="top">
+        <!--[if gte mso 9]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="590" style="width:590px;">
+                        <tr>
+                        <td align="center" valign="top" width="590" style="width:590px;">
+                        <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="max-width:590px!important; width: 590px;">
+        <tbody><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_0" id="Layout_0">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width:590px;">
+                        <table width="100%" cellpadding="0" border="0" height="38" cellspacing="0">
+                            <tbody><tr>
+                                <td valign="top" height="38">
+                                    <img width="20" height="38" style="display:block; max-height:38px; max-width:20px;" alt="" src="http://img.mailinblue.com/new_images/rnb/rnb_space.gif">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width rnb-tmpl-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_13" id="Layout_13">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width: 590px;">
+                        <table width="100%" cellpadding="0" border="0" bgcolor="#f9fafc" align="center" cellspacing="0" style="background-color: rgb(249, 250, 252);">
+                            <tbody><tr>
+                                <td height="10" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center" height="20" style="font-family:Arial,Helvetica,sans-serif; color:#666666;font-size:13px;font-weight:normal;text-align: center;">
+                                    <span style="color: rgb(102, 102, 102); text-decoration: underline;">
+                                        <a target="_blank" href="[MIRROR]" style="text-decoration: underline; color: rgb(102, 102, 102);">View in browser</a></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="10" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_2" id="Layout_2">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="max-width: 100%; min-width: 100%; table-layout: fixed; background-color: rgb(255, 255, 255); border-radius: 0px; border-collapse: separate; padding-left: 20px; padding-right: 20px;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                        <tbody><tr>
+                                            <td class="rnb-force-col" width="550" valign="top" style="padding-right: 0px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-1" width="550">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="550" hspace="0" vspace="0" alt="" class="rnb-col-1-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda8245b7141c3c1d7ce05b.jpg" style="vertical-align: top; max-width: 600px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div>Experience the World of Viking with a number of special offers on our ocean cruises including free flights, free 2-night city extensions, free stateroom upgrades and savings of up to $4,000 per couple on selected itineraries. Viking fares are highly inclusive, offering dining in a range of venues, wine and beer with meals, complimentary Wi-Fi and an excursion in every port at no extra cost.</div>
+
+<div>&nbsp;</div>
+
+<div>Step into our very special world and discover the Viking difference.</div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td></tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_6796" id="Layout_6796">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width:590px;">
+                        <table width="100%" cellpadding="0" border="0" height="38" cellspacing="0">
+                            <tbody><tr>
+                                <td valign="top" height="38">
+                                    <img width="20" height="38" style="display:block; max-height:38px; max-width:20px;" alt="" src="http://img.mailinblue.com/new_images/rnb/rnb_space.gif">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_6">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="background-color: rgb(255, 255, 255); padding-left: 20px; padding-right: 20px; border-collapse: separate; border-radius: 0px; border-bottom: 0px none rgb(200, 200, 200);">
+
+                                        <tbody><tr>
+                                            <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="rnb-container-padding" align="left">
+
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                                    <tbody><tr>
+                                                        <td class="rnb-force-col" valign="top" style="padding-right: 0px;">
+
+                                                            <table border="0" valign="top" cellspacing="0" cellpadding="0" width="100%" align="left" class="rnb-col-1">
+
+                                                                <tbody><tr>
+                                                                    <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;"><div style="text-align: center;"><span style="font-size:22px;">The World's Leading Small Ship Cruise Line</span></div>
+</td>
+                                                                </tr>
+                                                                </tbody></table>
+
+                                                            </td></tr>
+                                                </tbody></table></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" style="font-size:1px; line-height:0px;border-bottom:0px;">&nbsp;</td>
+                                        </tr>
+                                    </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_5" id="Layout_5">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="max-width: 100%; min-width: 100%; table-layout: fixed; background-color: rgb(255, 255, 255); border-radius: 0px; border-collapse: separate; padding-left: 20px; padding-right: 20px;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                        <tbody><tr>
+                                            <td class="rnb-force-col" width="170" valign="top" style="padding-right: 20px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-3" width="170">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="170" hspace="0" vspace="0" alt="" class="rnb-col-3-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda78e96a8c3e30671866d5.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size:12px;"><strong>The Thinking Person's Cruise</strong></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div style="line-height:16px;"><span style="font-size:10px;">At Viking, we believe travel should be more than just a trip―it should be a doorway to cultural insight and personal enrichment.</span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td><td class="rnb-force-col" width="170" valign="top" style="padding-right: 20px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-3" width="170">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="170" hspace="0" vspace="0" alt="" class="rnb-col-3-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda790db7141c3baa05cab9.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size:12px;"><strong>The Viking Way</strong></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div style="line-height:16px;"><span style="font-size:10px;">With more itineraries in more destinations worldwide, we offer behind-the-scenes insights and opportunities that set us apart from other travel companies.</span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td><td class="rnb-force-col" width="170" valign="top" style="padding-right: 0px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-last-col-3" width="170">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="170" hspace="0" vspace="0" alt="" class="rnb-col-3-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda7982c233a1339c6f9fd7.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size:12px;"><strong>The Small Ship Experts</strong></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div style="line-height:16px;"><span style="font-size:10px;">We dock in places larger ships cannot, and provide you with more time to explore the world’s greatest destinations.</span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td></tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_7" id="Layout_7">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="max-width: 100%; min-width: 100%; table-layout: fixed; background-color: rgb(255, 255, 255); border-radius: 0px; border-collapse: separate; padding-left: 20px; padding-right: 20px;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                        <tbody><tr>
+                                            <td class="rnb-force-col" width="170" valign="top" style="padding-right: 20px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-3" width="170">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="170" hspace="0" vspace="0" alt="" class="rnb-col-3-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda7986c233a13b5001b29e.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size:12px;"><strong>Cultural Enrichment</strong></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div style="line-height:16px;"><span style="font-size:10px;">Our onboard cultural enrichment program is curated to supplement your experiences on shore and features a collection of carefully selected experts and brand partnerships.</span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td><td class="rnb-force-col" width="170" valign="top" style="padding-right: 20px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-3" width="170">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="170" hspace="0" vspace="0" alt="" class="rnb-col-3-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda79dbb7141c3c1d7ce04c.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size:12px;"><strong>Serene Scandinavian Places</strong></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div style="line-height:16px;"><span style="font-size:10px;">Expand your horizons on our elegant, light-filled intimate ships, thoughtfully designed by experienced architects and designers to help you connect with your destination in every way.</span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td><td class="rnb-force-col" width="170" valign="top" style="padding-right: 0px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-last-col-3" width="170">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="170" hspace="0" vspace="0" alt="" class="rnb-col-3-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda798b6a8c3e34d5092091.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size:12px;"><strong>Destination-Focused Dining</strong></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div style="line-height:16px;"><span style="font-size:10px;">From sophisticated regional dishes and chef’s selections with wine pairings to rustic Italian cuisine and global fare, our venues offer the finest cuisine at sea.</span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td></tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_10093" id="Layout_10093">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width:590px;">
+                        <table width="100%" cellpadding="0" border="0" height="38" cellspacing="0">
+                            <tbody><tr>
+                                <td valign="top" height="38">
+                                    <img width="20" height="38" style="display:block; max-height:38px; max-width:20px;" alt="" src="http://img.mailinblue.com/new_images/rnb/rnb_space.gif">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%; -webkit-backface-visibility: hidden; line-height: 10px;" name="Layout_14" id="Layout_14">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width: 590px;">
+                        <table width="100%" class="rnb-container" cellpadding="0" border="0" bgcolor="#ffffff" align="center" cellspacing="0" style="background-color: rgb(255, 255, 255);">
+                            <tbody><tr>
+                                <td valign="top" align="center">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td>
+                                                <div style="display:block; border-radius:5px; width:590;;max-width:787px !important;border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;border-collapse: separate;border-radius: 0px;">
+                                                    <div>
+                                                        <img ng-if="col.img.source != 'url'" border="0" hspace="0" vspace="0" width="590" class="rnb-header-img" alt="" style="display:block; float:left; border-radius: 5px; " src="http://img.mailinblue.com/1542606/images/rnb/original/5bda95116a8c3e31ae1566f2.png"></div><div style="clear:both;"></div>
+                                                    </div></td>
+                                        </tr>
+                                    </tbody></table>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr></tbody></table>
+            <!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+        </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_11402" id="Layout_11402">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width:590px;">
+                        <table width="100%" cellpadding="0" border="0" height="38" cellspacing="0">
+                            <tbody><tr>
+                                <td valign="top" height="38">
+                                    <img width="20" height="38" style="display:block; max-height:38px; max-width:20px;" alt="" src="http://img.mailinblue.com/new_images/rnb/rnb_space.gif">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_17" id="Layout_17">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top" style="min-width:590px;">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="background-color: rgb(255, 255, 255); border-radius: 0px; padding-left: 20px; padding-right: 20px; border-collapse: separate;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+                                    <table width="100%" cellpadding="0" border="0" align="center" cellspacing="0">
+                                        <tbody><tr>
+                                            <td valign="top" align="center">
+                                                <table cellpadding="0" border="0" align="center" cellspacing="0" class="logo-img-center"> 
+                                                    <tbody><tr>
+                                                        <td valign="middle" align="center" style="line-height: 0px;">
+                                                            <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block; " cellspacing="0" cellpadding="0" border="0">
+                                                                <div>
+                                                                    <img width="550" vspace="0" hspace="0" border="0" alt="Viking Cruises Australia New Zealand" style="float: left;max-width:550px;display:block;" class="rnb-logo-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda9cef0127ee00140c6815.png"></div>
+                                                            </div></td>
+                                                    </tr>
+                                                </tbody></table>
+                                                </td>
+                                        </tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            <!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+        </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_15" id="Layout_15">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="max-width: 100%; min-width: 100%; table-layout: fixed; background-color: rgb(255, 255, 255); border-radius: 0px; border-collapse: separate; padding-left: 20px; padding-right: 20px;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                        <tbody><tr>
+                                            <td class="rnb-force-col" width="265" valign="top" style="padding-right: 20px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-2" width="265">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="265" hspace="0" vspace="0" alt="" class="rnb-col-2-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda7bf16a8c3e34d5092095.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><strong><span style="font-size:18px;">Viking Homelands</span></strong></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div><span style="font-size:12px;">STOCKHOLM - BERGEN or vice versa<br>
+15 days | 11 tours | 8 countries</span></div>
+
+<div><span style="font-size:12px;">From $8,495pp in Deluxe Veranda</span></div>
+
+<div><span style="color:#ce1141;"><span style="font-size:12px;">FREE UPGRADE within stateroom category</span></span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td><td class="rnb-force-col" width="265" valign="top" style="padding-right: 0px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-last-col-2" width="265">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="265" hspace="0" vspace="0" alt="" class="rnb-col-2-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda7bf0b7141c367271045d.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><strong><span style="font-size:18px;">Mediterranean Odyssey</span></strong></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div><span style="font-size:12px;">BARCELONA - VENICE or vice versa</span></div>
+
+<div><span style="font-size:12px;">13 days | 10 tours | 6 countries<br>
+From $6,595pp in Veranda Stateroom</span></div>
+
+<div><span style="color:#ce1141;"><span style="font-size:12px;">FREE UPGRADE within stateroom category</span></span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td></tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div>
+                <!--[if mso]>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_16" id="Layout_16">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#ffffff" style="max-width: 100%; min-width: 100%; table-layout: fixed; background-color: rgb(255, 255, 255); border-radius: 0px; border-collapse: separate; padding-left: 20px; padding-right: 20px;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                        <tbody><tr>
+                                            <td class="rnb-force-col" width="265" valign="top" style="padding-right: 20px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-col-2" width="265">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="265" hspace="0" vspace="0" alt="" class="rnb-col-2-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda7bf0c233a13b5001b2a8.jpg" style="vertical-align: top; max-width: 340px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><strong><span style="font-size:18px;">North Pacific Passage</span></strong></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div><span style="color:#000000;"><span style="font-size:12px;">TOKYO - VANCOUVER or vice versa</span></span></div>
+
+<div><span style="color:#000000;"><span style="font-size:12px;">23 days | 11 tours | 4 countries<br>
+from $12,195pp in Veranda Stateroom</span></span></div>
+
+<div><span style="color:#ce1141;"><span style="font-size:12px;">FREE UPGRADE within stateroom category</span></span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td><td class="rnb-force-col" width="265" valign="top" style="padding-right: 0px;">
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" align="left" class="rnb-last-col-2" width="265">
+                                                    <tbody><tr>
+                                                        <td width="100%" class="img-block-center" valign="top" align="left">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left" class="img-block-center">
+                                                                        <table style="display: inline-block;" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td>
+                                                                                    <div style="border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;display:inline-block;"><div>
+                                                                                        <img border="0" width="265" hspace="0" vspace="0" alt="" class="rnb-col-2-img" src="http://img.mailinblue.com/1542606/images/rnb/original/5bda9f68b4cc4d0016078f46.jpeg" style="vertical-align: top; max-width: 4080px; float: left;"></div><div style="clear:both;"></div>
+                                                                                        </div>
+                                                                            </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:24px; font-family:Arial,Helvetica,sans-serif; color:#3c4858; text-align:left;">
+                                                            <span style="color:#3c4858; "><span style="font-size: 18px;"><b>Far Eastern Horizons</b></span></span></td>
+                                                    </tr><tr>
+                                                        <td height="10" class="col_td_gap" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                                                    </tr><tr>
+                                                        <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858; line-height: 21px;">
+                                                            <div><div><span style="color:#000000;"><span style="font-size: 12px;">HONG KONG - TOKYO or vice versa</span></span></div>
+
+<div><span style="color:#000000;"><span style="font-size: 12px;">15 days | 9 tours | 4 countries</span></span></div>
+
+<div><span style="color:#000000;"><span style="font-size: 12px;">From $9,095pp in Veranda Stateroom</span></span></div>
+
+<div><span style="color:#ce1141;"><span style="font-size: 12px;">FLY FREE economy</span></span></div>
+</div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+
+                                                </td></tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width rnb-tmpl-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_4" id="Layout_4">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top" style="min-width:590px;">
+                        <table width="590" class="rnb-container rnb-yahoo-width" cellpadding="0" border="0" align="center" cellspacing="0" bgcolor="#f9fafc" style="padding-right: 20px; padding-left: 20px; background-color: rgb(249, 250, 252);">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:14px; color:#888888; font-weight:normal; text-align:center; font-family:Arial,Helvetica,sans-serif;">
+                                    <div>© 2018 Viking Cruises Australia New Zealand</div>
+                                </td></tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:0px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr></tbody></table>
+            <!--[if gte mso 9]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        </td>
+        </tr>
+        </tbody></table>
+
+</body></html>
